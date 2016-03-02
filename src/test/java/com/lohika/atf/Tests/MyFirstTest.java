@@ -1,19 +1,24 @@
 package com.lohika.atf.Tests;
 
+import com.lohika.atf.Core.BaseTest;
 import org.openqa.selenium.WebDriver;
         import org.openqa.selenium.chrome.ChromeDriver;
         import org.openqa.selenium.firefox.FirefoxDriver;
-        import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
+public class MyFirstTest extends BaseTest{
 
-public class MyFirstTest {
     @Test
     public void testMethod(){
-        WebDriver driver = new FirefoxDriver();
         driver.get("http://skype.com");
-        try {
-            Thread.sleep(3000);
-        } catch (Exception e){}
-        driver.quit();
+        Wait.seconds(3);
     }
+
+    @Test
+    public void testMethod2(){
+        driver.get("http://google.com");
+        Wait.seconds(3);
+    }
+
+
 }
