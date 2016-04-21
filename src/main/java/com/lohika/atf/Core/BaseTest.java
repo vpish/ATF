@@ -13,12 +13,14 @@ public abstract class BaseTest {
 
    @BeforeSuite (alwaysRun = true)
    @Parameters({"browser"})
-    public void setUp(@Optional("firefox") String browser) {
-       if (browser.equals("firefox")){
+    public void setUp(@Optional("ie") String browser) {
+       if (browser.equals("ff")){
            driver = new FirefoxDriver();
        } else if (browser.equals("ie")) {
+           System.setProperty("webdriver.ie.driver", "D:\\Dev\\IEDriverServer.exe");
            driver = new InternetExplorerDriver();
        } else if (browser.equals("chrome")){
+           System.setProperty("webdriver.chrome.driver", "D:\\Dev\\chromedriver.exe");
            driver = new ChromeDriver();
        }
     }
