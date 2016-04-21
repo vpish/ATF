@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="10" started-at="2016-03-02T20:03:36Z" finished-at="2016-03-02T20:03:36Z">
+  <suite name="Surefire suite" duration-ms="11" started-at="2016-04-20T14:41:00Z" finished-at="2016-04-20T14:41:00Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="10" started-at="2016-03-02T20:03:36Z" finished-at="2016-03-02T20:03:36Z">
+    <test name="Surefire test" duration-ms="11" started-at="2016-04-20T14:41:00Z" finished-at="2016-04-20T14:41:00Z">
       <class name="com.lohika.AppTest">
-        <test-method status="PASS" signature="testApp()[pri:0, instance:testApp(com.lohika.AppTest)]" name="testApp" duration-ms="2" started-at="2016-03-02T22:03:36Z" finished-at="2016-03-02T22:03:36Z">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:testApp(com.lohika.AppTest)]" name="testApp" duration-ms="1" started-at="2016-04-20T17:41:00Z" finished-at="2016-04-20T17:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testApp -->

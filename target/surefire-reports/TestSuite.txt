@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.814 sec - in TestSuite
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 0.74 sec <<< FAILURE! - in TestSuite
+setUp(com.lohika.atf.Tests.MyFirstTest)  Time elapsed: 0.45 sec  <<< FAILURE!
+java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see http://code.google.com/p/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://code.google.com/p/chromedriver/downloads/list
+
+cleanUp(com.lohika.atf.Tests.MyFirstTest)  Time elapsed: 0.064 sec  <<< FAILURE!
+java.lang.NullPointerException
+
