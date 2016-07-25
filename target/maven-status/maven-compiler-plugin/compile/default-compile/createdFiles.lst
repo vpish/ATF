@@ -1,2 +1,5 @@
+com\lohika\atf\Core\BrowserType.class
+com\lohika\atf\Core\DriverMaster$1.class
+com\lohika\atf\Core\DriverMaster.class
 com\lohika\App.class
 com\lohika\atf\Core\BaseTest.class

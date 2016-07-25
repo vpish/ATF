@@ -14,15 +14,20 @@ public class MyFirstTest extends BaseTest{
     @Test
     public void testMethod(){
         driver.get("http://www.skype.com");
-        //driver.get("http://localhost:4444/");
         Wait.seconds(2);
-       /* driver.get("http://localhost:4444/");
+
+    }
+
+    @Test
+    public void testMethod2(){
+
+        driver.get("http://localhost:4444/");
         Wait.seconds(3);
         MainPage mainPage1 = new MainPage(driver);
         mainPage1.selectContactsTab();
         mainPage1.selectCustomersTab();
         mainPage1.selectProductsTab();
-        mainPage1.selectFirstTab(); */
+        mainPage1.selectFirstTab();
     }
 
 
